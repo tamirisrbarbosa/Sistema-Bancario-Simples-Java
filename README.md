@@ -66,7 +66,7 @@ Informe seu CPF, por gentileza: 000
 
 Olá! Qual operação deseja realizar?
 1 - Consultar saldo
-2 - Deposito
+2 - Depósito
 3 - Saque
 4 - Encerrar solicitação
 1
@@ -74,17 +74,17 @@ Seu saldo atual: R$ 0.0
 
 Olá! Qual operação deseja realizar?
 1 - Consultar saldo
-2 - Deposito
+2 - Depósito
 3 - Saque
 4 - Encerrar solicitação
 2
 Informe o valor que deseja depositado:
 8
-Deposito de R$ 8.0 realizado com sucesso.
+Depósito de R$ 8.0 realizado com sucesso.
 
 Olá! Qual operação deseja realizar?
 1 - Consultar saldo
-2 - Deposito
+2 - Depósito
 3 - Saque
 4 - Encerrar solicitação
 3
@@ -94,7 +94,7 @@ Saque de R$ 5.0 realizado com sucesso.
 
 Olá! Qual operação deseja realizar?
 1 - Consultar saldo
-2 - Deposito
+2 - Depósito
 3 - Saque
 4 - Encerrar solicitação
 1
@@ -102,7 +102,7 @@ Seu saldo atual: R$ 3.0
 
 Olá! Qual operação deseja realizar?
 1 - Consultar saldo
-2 - Deposito
+2 - Depósito
 3 - Saque
 4 - Encerrar solicitação
 4
