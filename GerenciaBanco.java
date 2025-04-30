@@ -21,10 +21,10 @@ class Cliente {
     public void depositar(double valor) {
         if (valor > 0){
             saldo += valor;
-            System.out.println("Deposito de R$ " + valor + " realizado com sucesso.");
+            System.out.println("Depósito de R$ " + valor + " realizado com sucesso.");
         }
         else {
-            System.out.println("Deposito inválido");
+            System.out.println("Depósito inválido");
         } //fim do método depositar
     }
     
@@ -44,7 +44,7 @@ public class GerenciaBanco {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Informe seu nome, por gentileza");
         String nome = scanner.nextLine();
-        System.out.println("Informe seu sobrenome. por gentileza");
+        System.out.println("Informe seu sobrenome, por gentileza");
         String sobrenome = scanner.nextLine();
         System.out.println("Informe seu CPF, por gentileza");
         String cpf = scanner.nextLine();
@@ -55,7 +55,7 @@ public class GerenciaBanco {
         while (continuar) {
             System.out.println("Olá! Qual operação deseja realizar?");
             System.out.println("1 - Consultar saldo");
-            System.out.println("2 - Deposito");
+            System.out.println("2 - Depósito");
             System.out.println("3 - Saque");
             System.out.println("4 - Encerrar solicitação");
             
@@ -67,7 +67,7 @@ public class GerenciaBanco {
                     cliente.consultarSaldo();
                     break;
                 case 2:
-                    System.out.println("Informe o valor que deseja depositado:");
+                    System.out.println("Informe o valor que deseja depositar:");
                     double valorDeposito = scanner.nextDouble();
                     scanner.nextLine();
                     cliente.depositar(valorDeposito);
@@ -80,10 +80,10 @@ public class GerenciaBanco {
                     break;
                 case 4:
                     continuar = false;
-                    System.out.println("Encerrando solicitaões, até breve!");
+                    System.out.println("Encerrando solicitações, até breve!");
                     break;
                 default:
-                    System.out.println("Opção Inválida, tente novamente.");
+                    System.out.println("Opção inválida, tente novamente.");
                     break;
             }
         }
