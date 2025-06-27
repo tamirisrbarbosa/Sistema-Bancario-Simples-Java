@@ -47,16 +47,6 @@ Objetivo era aplicar os conceitos fundamentais da programação orientada a obje
 
 ---
 
-## 💻 Execução
-
-Para rodar o projeto:
-
-1. Clone ou baixe o repositório
-2. Compile e execute o arquivo `GerenciaBanco.java`
-3. Insira os dados do cliente e siga o menu de opções
-
----
-
 ## ✅ Exemplo de Uso
 
 ```bash
